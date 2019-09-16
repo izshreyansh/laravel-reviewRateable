@@ -1,7 +1,6 @@
 {
-    "name": "trexology/reviewrateable",
+    "name": "shreyanshpanchal/laravel-reviewRateable",
     "description": "Rating syetem for Laravel 5",
-    "keywords": ["rating", "Ratable", "laravel", "ReviewRateable", "reviewable"],
     "license": "MIT",
     "authors": [
         {
