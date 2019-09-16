@@ -4,11 +4,12 @@ namespace Trexology\ReviewRateable\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Spatie\MediaLibrary\HasMedia\HasMedia;
+use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 
-
-class Rating extends Model
+class Rating extends Model implements HasMedia
 {
-    use SoftDeletes;
+    use SoftDeletes,HasMediaTrait;
     
     /**
      * @var string
